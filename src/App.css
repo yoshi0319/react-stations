@@ -1,3 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .backcolor{
     background-color: #f5f5f5;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.message-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.description button {
+    background-color: #3f88f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;    
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.display-btn {
+    background-color: #3f88f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 5rem;   
+    margin-left: 3rem;
 }

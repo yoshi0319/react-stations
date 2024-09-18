@@ -3,6 +3,7 @@
 import './App.css';
 import {Header} from './Header.jsx';
 import {Description} from './Description.jsx';
+import DogListContainer from './DogListContainer';
 import {DogImage} from './DogImage.jsx'
 import React, { useState } from 'react';
 
@@ -12,6 +13,9 @@ import React, { useState } from 'react';
 export const App = () => {
   return (
     <><Header />
-    <Description /></>
+    <Description />
+    <hr />
+    <DogListContainer />
+    </>
   )
 }
